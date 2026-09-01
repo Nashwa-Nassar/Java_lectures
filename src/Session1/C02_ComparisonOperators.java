@@ -6,8 +6,9 @@ public class C02_ComparisonOperators {
         //System.out.print("Ahmed");
         //System.out.println("Ali");
 
-        int x = 2;
-        if (x > 5){
+        int x = 5;
+        boolean c =  (x != 5);
+        if (c){
             System.out.println("Ahmed");
         }
         else {
