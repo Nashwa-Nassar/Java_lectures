@@ -12,5 +12,12 @@ public class C07_Loops {
         for(int j=0; j<3; j++){
             System.out.println("Ali");
         }
+
+        int n = 0;
+        // at least it is done once
+        do{
+            System.out.println("Try");
+            n ++;
+        }while(n < 5);
     }
 }

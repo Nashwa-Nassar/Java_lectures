@@ -1,5 +1,7 @@
 package Session1;
 
+import javax.swing.plaf.IconUIResource;
+
 public class C08_Arrays {
     static void main(String[] args) {
 
@@ -17,7 +19,11 @@ public class C08_Arrays {
         }
 
         char s[] = {'A', 'B', 'C'};
-        String c[] = {"Ahmed", "Nashwa", "Mona"};
+        String c[] = {"Ahmed", "Nashwa", "Mona", "Omar"};
+        // for each
+        for (String r : c){
+            System.out.println(r);
+        }
 
     }
 }
