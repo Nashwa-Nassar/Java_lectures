@@ -1,7 +1,7 @@
 package Session1;
 
 public class C01_DataTypes {
-
+    // this is the entry point of the java program
     static void main(String[] args) {
 
         // integer numbers
@@ -11,7 +11,7 @@ public class C01_DataTypes {
             short z = 32;                // 2 bytes
             int y = 10;                  // 4 bytes
             long w = 40;                 // 8 bytes
-        // reassign
+        /* reassign -- overwrite */
             x = 10;
 
         // arithmetic operators
@@ -19,7 +19,7 @@ public class C01_DataTypes {
            //System.out.println(x - z);  // -20
            //System.out.println(x * z);  // 300
            //System.out.println(w / x);  // 4
-           System.out.println(z % x);
+           System.out.println(z % x);  // it returns the rest of the division
 
         // floating numbers
             float f = 0.3f;

@@ -15,7 +15,9 @@ public class C02_ComparisonOperators {
             System.out.println("Ali");
         }
 
-
+        // this line will get printed weather the if conditions are met or not
+        // because it is outside their scope
+        System.out.println("Nashwa");
 
 
     }
