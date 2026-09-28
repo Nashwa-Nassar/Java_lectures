@@ -5,7 +5,7 @@ import javax.swing.plaf.IconUIResource;
 public class C08_Arrays {
     static void main(String[] args) {
 
-        // data_type var_name [] = {value1, value2};
+        // data_type var_name [] = {value1, value2, ....};
         int a[] = {4, 8, 3, 6, 9, 6, 7, 3, 7, 5, 5, 5, 3};  // 6*4 byte
 
         System.out.println(a[2]);
